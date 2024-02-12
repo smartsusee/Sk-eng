@@ -1,14 +1,10 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
-import Slider from "./Slider/slider";
-import img_2 from "./images/logo.jpeg";
-import "./Hover/hover.css";
-import Ourservices from "./ourServices/Ourservices";
-import Ourproject from "./ourproject/Ourproject";
-import Marquee from "./marquee/marquee";
-function App() {
+import img_2 from "../images/logo.jpeg";
+
+function About() {
   return (
-    <>
+    <div>
       <div style={{ position: "relative" }} className="m-3  ">
         <nav
           className="navbar navbar-expand-md  
@@ -119,12 +115,8 @@ function App() {
           </div>
         </nav>
       </div>
-      <Slider />
-      <Ourservices />
-      <Ourproject />
-      <Marquee />
-    </>
+    </div>
   );
 }
 
-export default App;
+export default About;

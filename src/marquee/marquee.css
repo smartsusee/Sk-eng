@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  font-size: 20px !important;
+  color: rgb(155, 57, 155);
+}
+
+.font:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.active:hover {
+  color: rgb(82, 150, 107) !important;
+  font-size: 13px;
+  transition: 0.3s;
+}

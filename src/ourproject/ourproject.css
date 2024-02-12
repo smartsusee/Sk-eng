@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.img-sha {
+  box-shadow: 10px 10px 10px;
+}
+
+.img-sha:hover {
+  cursor: p ointer;
+  transform: rotate(360deg) scale(1.1, 1.1);
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+.Manythanks:hover {
+  cursor: pointer;
+  font-size: 13px;
+  background-color: white !important;
+  color: black !important;
+}
+
+.increase {
+  font-size: 40px !important;
+}
+.increase:hover {
+  cursor: pointer;
+}
+.increase:hover::after {
+  content: "";
+  width: 100px;
+  transition: 10s;
+  height: 2px;
+  position: absolute;
+  margin-top: -53px;
+  margin-left: -30px;
+  background-color: rgb(0, 251, 255) !important;
+}
+.incresebtn {
+  /* background-color: red !important; */
+}
+
+.plus {
+  background-color: yellow;
+}
